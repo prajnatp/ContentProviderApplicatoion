@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.contentproviderapplication.ContactContentProviderActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:paddingRight="20dp"/>
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_hint"
+        android:layout_toRightOf="@id/et_name"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/bt_add_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/et_number"
+        android:text="@string/bt_add"/>
+
+    <EditText
+        android:id="@+id/et_update_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:layout_below="@id/bt_add_contact"
+        android:paddingRight="20dp"/>
+
+    <EditText
+        android:id="@+id/et_update_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_hint"
+        android:layout_below="@id/bt_add_contact"
+        android:layout_toRightOf="@id/et_update_name"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/bt_update_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_add_contact"
+        android:layout_toRightOf="@id/et_update_number"
+        android:text="@string/bt_update"/>
+
+    <Button
+        android:id="@+id/bt_get_all_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_update_name"
+        android:text="@string/tv_contact_all"/>
+
+    <EditText
+        android:id="@+id/et_search_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_hint"
+        android:layout_below="@id/bt_get_all_contact"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/bt_search_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_get_all_contact"
+        android:layout_toRightOf="@id/et_search_contact"
+        android:text="@string/search_contact"/>
+
+    <EditText
+        android:id="@+id/et_delete_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_name"
+        android:layout_below="@id/bt_search_contact"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/bt_delete_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_search_contact"
+        android:layout_toRightOf="@id/et_delete_contact"
+        android:text="@string/delete_contact"/>
+
+</RelativeLayout>

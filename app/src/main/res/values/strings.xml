@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ContentProviderApplication</string>
+    <string name="tv_name">Enter Name</string>
+    <string name="tv_contact_all">Get Contact List</string>
+    <string name="text_hint">Search by Alphabet</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="add_contact">Add New Contact</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="number_hint">Enter Number</string>
+    <string name="bt_add">Add Contact</string>
+    <string name="bt_update">Update Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="test_provider">Test</string>
+    <string name="sample_text">Enter Text</string>
+    <string name="add_word">Add Word</string>
+</resources>
